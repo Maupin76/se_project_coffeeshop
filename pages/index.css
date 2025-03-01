@@ -215,7 +215,7 @@ ul{
   justify-content: center;
 }
 
-.form__labels, , .form__input, .form__button, .form__label_checkbox{
+.form__labels, .form__input, .form__button, .form__label_checkbox{
   font-family: Inter;
   font-style: normal;
   font-weight: 500;
