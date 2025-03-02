@@ -1,0 +1,32 @@
+.menu{
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 100px 0;
+  background-color: blue;
+}
+
+.menu__title{
+  margin: 0 auto;
+  max-width: 780px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+}
+
+.menu__subtitle{
+  margin: 0 auto;
+  max-width: 780px;
+  font-family: "Noto Serif";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.menu__cards{
+  display: flex;
+  margin: 0 auto;
+}
