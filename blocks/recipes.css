@@ -24,10 +24,6 @@
   line-height: 30px;
 }
 
-ul{
-  margin: 0;
-}
-
 .recipes__videos {
   display: flex;
   justify-content: center;

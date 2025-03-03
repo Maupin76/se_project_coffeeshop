@@ -5,6 +5,7 @@
   position: relative;
   display: flex;
   flex-direction: column;
+  box-sizing: border-box;
 }
 
 .header__title {
@@ -14,6 +15,7 @@
   font-size: 60px;
   line-height: 72px;
   letter-spacing: -0.6px;
+  z-index: 1;
 }
 
 .header__span-accent {
@@ -29,6 +31,7 @@
   font-family: "Noto Serif", serif;
   font-size: 20px;
   line-height: 30px;
+  z-index: 1;
 }
 
 .header__image {
