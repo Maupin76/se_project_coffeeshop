@@ -33,10 +33,12 @@
   border: none;
   color: #fff;
   background-color: #1878DC;
+  transition: background-color 0.5s;
 }
 
 .form__button:hover {
   background-color: #3f96f3;
+  cursor: pointer;
 }
 
 .form__checkbox{

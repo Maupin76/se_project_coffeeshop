@@ -23,4 +23,10 @@
   color: #000;
   font-weight: 500;
   font-size: 16px;
+  transition: opacity 0.5s;
+}
+
+.nav__link:hover {
+  opacity: 0.5;
+  cursor: pointer;
 }
