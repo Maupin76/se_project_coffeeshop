@@ -3,11 +3,11 @@
   flex-direction: column;
   margin: 0;
   padding: 100px 0;
-  background-color: blue;
+  background: center / cover no-repeat url(../images/background_menu.svg) #fff;
 }
 
 .menu__title{
-  margin: 0 auto;
+  margin: 0 auto 24px;
   max-width: 780px;
   font-family: "Inter";
   font-style: normal;
@@ -17,7 +17,7 @@
 }
 
 .menu__subtitle{
-  margin: 0 auto;
+  margin: 0 auto 100px;
   max-width: 780px;
   font-family: "Noto Serif";
   font-style: normal;
@@ -29,4 +29,8 @@
 .menu__cards{
   display: flex;
   margin: 0 auto;
+  list-style-type: none;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 100px;
 }
